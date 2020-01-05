@@ -59,6 +59,9 @@ class Handler extends ExceptionHandler
             return response()->json(['error' => 'parametro token no encontrado.'], 400);
         }
 
+        if ($exception instanceof \Illuminate\Database\Eloquent\ModelNotFoundException) {
+            return response()->json(['status'=>'error','message'=>'Objeto no encontrado'],404);
+        }
 
         return parent::render($request, $exception);
     }

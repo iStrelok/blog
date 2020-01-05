@@ -36,6 +36,11 @@ Route::group(['prefix' => 'auth'], function ($router) {
 | RUTAS DE USER
 |--------------------------------------------------------------------------
 */
+Route::resource('users','UserController');
 
-
-
+/*
+|        |    POST   | api/users             | users.store   | App\Http\Controllers\UserController@store   --CREA UN NUEVO USUARIO
+         |    GET    | api/users/{user}      | users.show    | App\Http\Controllers\UserController@show    --DEVUELVE UN USUARIO
+|        | PUT|PATCH | api/users/{user}      | users.update  | App\Http\Controllers\UserController@update  --ACTUALIZA EL USUARIO
+|        | DELETE    | api/users/{user}      | users.destroy | App\Http\Controllers\UserController@destroy --ELIMINA EL USUARIO
+*/
