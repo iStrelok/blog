@@ -9,6 +9,16 @@ use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable implements JWTSubject
 {
+    protected $table = "users";
+
+    public function comments(){
+        return $this->hasMany('App\Comment');
+    }
+
+    public function notepads(){
+        return $this->hasMany('App\Notepad');
+    }
+
     use Notifiable;
 
     /**
