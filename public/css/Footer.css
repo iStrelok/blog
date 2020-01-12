@@ -1,0 +1,8 @@
+footer {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    opacity: 0.5;
+}
+
+footer > h5, p {
+    color: #FFF;
+}
