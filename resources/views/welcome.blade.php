@@ -11,8 +11,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">  
-        
+        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -76,7 +75,7 @@
     <body style="overflow-x:hidden;">
 
         <div id="Main"></div>
-        
+
     </body>
     <script type="text/javascript" src="js/app.js"></script>
 </html>

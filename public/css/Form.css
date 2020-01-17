@@ -17,7 +17,7 @@ form {
     border-bottom-right-radius: 100px;
 }
 
-form > h2, p {
+form > h2, p, .nameAccessButton {
     color: #000;
 }
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from './Navbar';
+import Navbar from '../navbar/Navbar';
 import MainModal from './MainModal';
-import '../../../public/css/Presentation.css';
+import '../../../../public/css/Presentation.css';
 
 function Main() {
     return(
@@ -26,7 +26,7 @@ function Main() {
                     </div>
                 </div>
             </div>
-                     
+
         </React.Fragment>
     );
 }

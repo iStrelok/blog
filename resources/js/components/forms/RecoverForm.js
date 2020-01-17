@@ -1,6 +1,6 @@
 import React from 'react';
 
-function LoginForm(props) {
+function Recover(props) {
 
     const elements = {
         title                                  : props.title,
@@ -13,10 +13,7 @@ function LoginForm(props) {
             <h2 className="text-center">{ elements.title }</h2>
             <p className="text-center">{ elements.description }</p>
             <div className="form-group">
-                <input className="form-control" placeholder="Usuario"></input>
-            </div>
-            <div className="form-group">
-                <input className="form-control" placeholder="Contraseña"></input>
+                <input className="form-control" placeholder="email"></input>
             </div>
             <div className="d-flex justify-content-center">
                 <input className="btn btn-primary" defaultValue={ elements.buttonName }></input>
@@ -25,4 +22,4 @@ function LoginForm(props) {
     );
 }
 
-export default LoginForm;
+export default Recover;
